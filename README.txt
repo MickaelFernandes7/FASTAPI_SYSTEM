@@ -22,3 +22,11 @@ Métodos HTTP/FASTAPI:
 - POST:  Inserir produtos nos campos de Compras e Vendas, e Estoque, os produtos, entradas e saídas.
 - PUT:    Para Atualizar os produtos campos de Vendas, Compras e Estoque.
 - DELETE:  Para apagar os produtos que não são mais vendidos do campo Estoque.
+
+Como Usar o Sistema:
+
+Campo Estoque:
+
+Campo Compras:
+
+Campo Vendas:

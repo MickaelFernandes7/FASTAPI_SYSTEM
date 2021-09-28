@@ -7,7 +7,7 @@ from sqlalchemy.orm import Session
 
 router = APIRouter()
 
-@router.post('/login', tags=['Authentication'])
+@router.post('/login', tags=['autenticação'])
 def login(request:OAuth2PasswordRequestForm = Depends(), db: Session = Depends(database.get_db)):
     #Puxa no banco de dados o modelo Usuario, e o email do modelo usuario ira receber o username(email) do request, e retorna o 1°
     user = db.query(models.Usuario).filter(models.Usuario.email == request.username).first()
